@@ -409,3 +409,73 @@ footer .footer-bottom {
 footer img {
   width: 30px;
 }
+
+/* MEDIA QUERYS */
+
+@media (max-width: 425px) {
+  body {
+    overflow-x: hidden;
+  }
+
+  .header-top {
+    display: none;
+  }
+
+  .main-news {
+    padding: 20px;
+  }
+  .main-header #search,
+  .main-header img,
+  .main-header input {
+    display: none;
+  }
+
+  .main-header h1 {
+    margin: 0 auto;
+  }
+
+  .main-news .title {
+    font-size: 1.5rem;
+    margin-top: -4rem;
+  }
+
+  .subtitle {
+    font-size: 1rem;
+  }
+
+  .main-news img {
+    float: none;
+    display: block;
+    margin: 0 auto;
+  }
+
+  .main-news h1,
+  .main-news h2,
+  .main-news h3 {
+    font-size: 18px;
+  }
+
+  .others-news {
+    display: none;
+  }
+
+  .social-media a {
+    padding: 0.6em 1.6em;
+    font-size: 1.5rem;
+  }
+
+  footer {
+    padding: 30px;
+    padding-bottom: 20px;
+  }
+
+  .footer-bottom {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .politicas a {
+    font-size: 7px;
+  }
+}
