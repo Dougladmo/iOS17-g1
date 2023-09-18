@@ -449,6 +449,12 @@ footer img {
     margin: 0 auto;
   }
 
+   .main-news #ad {
+    float: none;
+    display: block;
+    margin: 0 auto;
+  }
+
   .main-news h1,
   .main-news h2,
   .main-news h3 {
